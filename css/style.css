@@ -1,0 +1,48 @@
+
+
+header{
+    padding-left: 50px;
+}
+
+#promo {
+    height: 80px;
+    margin-top: 2em;
+    padding: 2em;
+    position: relative;
+}
+
+#colonne_promo{
+position: absolute;
+top: 0%;
+}
+
+#button{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top:15%;
+    left: 75%;
+}
+body {
+   
+    background-color: rgb(242, 245, 247);
+}
+
+.box {
+    border: 2px solid white;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(218, 214, 214);
+}
+
+ ul li {
+    list-style-type: none;
+  }
+  
+.header {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(218, 214, 214);
+    padding-bottom: 1em;
+  }
