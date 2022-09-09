@@ -1,6 +1,6 @@
 
-let taille = document.getElementsByClassName("liste1");
+let taille = document.getElementsByClassName("box");
 
 taille.addEventListener("click", Event => {
-    taille.style.display = none;
+    taille.style.display = 'none';
 });
