@@ -1,6 +1,10 @@
+let test = document.getElementById("box");
 
-let taille = document.getElementsByClassName("box");
-
-taille.addEventListener("click", Event => {
-    taille.style.display = 'none';
-});
+test.addEventListener ("click", function myFunction() {
+  var x = document.getElementById("hidden");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+})
