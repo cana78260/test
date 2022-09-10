@@ -1,10 +1,15 @@
-let test = document.getElementById("box");
+let test = document.getElementsByClassName("hidden");
 
-test.addEventListener ("click", function myFunction() {
-  var x = document.getElementById("hidden");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-})
+
+for(let i=0; i<test.length; i++) {
+     test[i].addEventListener('click', function(e) { 
+        if (test[i].classList.contains('hidden')) {
+          
+    if (test[i].style.display === "none") {
+      test[i].style.display = "block";
+    } else {
+      test[i].style.display = "none";
+    }
+}
+     })
+}
