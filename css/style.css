@@ -40,6 +40,9 @@ header{
     padding-bottom: 1em;
   }
 
+p.sous_titre {
+        font-size: 2em;
+}
   
 #promo {
     height: 80px;
