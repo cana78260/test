@@ -15,7 +15,7 @@ body {
 
 
 #button{
-    background-color: red;
+    background-color: #CE0033;
     color: white;
     position: absolute;
     top:15%;
@@ -58,5 +58,10 @@ span {
 
  ul li {
     list-style-type: none;
+    list-style-position: outside;
   }
   
+ul li.align {
+    list-style-position: inside;
+    list-style-image: url("../images/bullet.png");
+}
