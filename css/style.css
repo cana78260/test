@@ -14,12 +14,12 @@ body {
   box-shadow: 3px 3px 5px rgb(218, 214, 214);
 }
 
-.button {
+#button {
   background-color: #ce0033;
   color: white;
-  position: absolute;
-  margin-top: 1%;
-  left: 70%;
+  text-align: center;
+  margin-left: 25%;
+  width: 150px;
 }
 
 header {
@@ -58,9 +58,14 @@ ul li.align {
   list-style-image: url("../images/bullet.png");
 }
 
-@media (min-width: 400px) {
- .button{ 
- 
- margin-left: 0%;
+@media (min-width: 750px) {
+  #button {
+    position: absolute;
+    margin-left: 70%;
+    margin-bottom: 100%;
+  }
 
+  #promo {
+    display: flex;
+  }
 }
