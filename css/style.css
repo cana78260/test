@@ -1,67 +1,66 @@
 body {
-   
-    background-color: rgb(242, 245, 247);
+  background-color: rgb(242, 245, 247);
 }
-
 
 .box {
-    border: 2px solid white;
-    margin: 15px;
-    border-radius: 15px;
-    padding: 1em;
-    background-color: white;
-    box-shadow: 1px 1px 5px rgb(218, 214, 214);
+  border: 2px solid white;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgb(218, 214, 214);
 }
 
-
-#button{
-    background-color: #CE0033;
-    color: white;
-    position: absolute;
-    top:15%;
-    left: 75%;
+.button {
+  background-color: #ce0033;
+  color: white;
+  position: absolute;
+  margin-top: 1%;
+  left: 70%;
 }
 
-
-#colonne_promo{
-    position: absolute;
-    top: 0%;
-    }
-
-
-header{
-    padding-left: 50px;
+header {
+  padding-left: 0px;
+  padding-top: 5px;
 }
-
 
 .header {
-    background-color: white;
-    box-shadow: 1px 1px 5px rgb(218, 214, 214);
-    padding-bottom: 1em;
-  }
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(218, 214, 214);
+  padding-bottom: 1em;
+}
 
 p.sous_titre {
-        font-size: 2em;
+  font-size: 2em;
 }
-  
+
 #promo {
-    height: 80px;
-    margin-top: 2em;
-    padding: 2em;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 4%;
 }
 
 span {
-
-    font-size: 0.5em;
+  font-size: 0.5em;
 }
 
- ul li {
-    list-style-type: none;
-    list-style-position: outside;
-  }
-  
+ul li {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
 ul li.align {
-    list-style-position: inside;
-    list-style-image: url("../images/bullet.png");
+  list-style-position: inside;
+  list-style-image: url("../images/bullet.png");
+}
+
+@media (min-width: 400px) {
+ .button{ 
+ 
+ margin-left: 0%;
+
 }
