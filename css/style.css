@@ -2,6 +2,14 @@ body {
   background-color: rgb(242, 245, 247);
 }
 
+body header.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
 .box {
   border: 2px solid white;
   margin-top: 15px;
@@ -11,7 +19,7 @@ body {
   border-radius: 15px;
   padding: 1em;
   background-color: white;
-  box-shadow: 3px 3px 5px rgb(218, 214, 214);
+  box-shadow: 4px 4px 2px 1px rgb(218, 214, 214);
 }
 
 #button {
